@@ -1,0 +1,36 @@
+.succ{
+    color: whitesmoke;
+    padding-left: 35%;
+    padding-top: 15%;
+}
+/* .port{
+    padding: 15px 75px;
+    border-radius: 7px; 
+    transition: 0.5s; 
+     margin: 10% 48%; 
+     
+      background-color: rgb(217, 8, 248);
+      color:#fff;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+} */
+#hum{
+    padding: 15px 32px;
+    border-radius: 7px; 
+    transition: 0.5s; 
+     margin: 7% 40%; 
+    /* position: absolute; */
+    /* transform: translateY(-50%); */
+    /* left: 725px; */
+      background-color: rebeccapurple;
+      color:#fff;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+}
+#hum:hover{
+    background-color: rgb(217, 8, 244);
+    transform: scale(1.1);
+    transition: 0.3s;
+}

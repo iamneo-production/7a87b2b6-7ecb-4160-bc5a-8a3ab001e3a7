@@ -1,0 +1,63 @@
+.gal{
+    /* color:#ccc; */
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+    /* padding: 10%; */
+    padding-top: 5%;
+  }
+  .gal div{
+    width: 100%;
+    /* height: 200px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+    border-radius: 20px;
+  }
+  .gal div img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+    border-radius: 20px;
+  }
+  .gal div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .gal::-webkit-scrollbar{
+    display: none;
+  }
+  .gal-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+  }
+  #p{
+    /* background-color: black;
+    padding: 4px; */
+    border: none; 
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-family: ; 
+    /* padding-top: 1; */
+  }
+  body{
+    background-color: black;
+  }
+  #names1{
+    color: white;
+    /* float: left; */
+    /* padding-top: 250px; */
+
+  }
+  .hu{
+    /* width: 1000px; */
+    /* text-align: center; */
+    /* padding-top: 100px; */
+  }

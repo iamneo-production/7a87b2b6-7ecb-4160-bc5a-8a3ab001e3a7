@@ -1,0 +1,40 @@
+.payment{
+    color:white;
+    margin-top: 100px;
+    margin-left: 40%;
+    /* padding: 100px; */
+}
+#card{
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#tag{
+    font-weight: bold;
+    font-size:xx-large;
+    
+     /* text-align: center; */
+} 
+#card1{
+    text-align: center;
+    color: white;
+}
+#hu{
+    padding: 15px 32px;
+    border-radius: 7px; 
+    transition: 0.5s; 
+     margin: 10% 48%; 
+    /* position: absolute; */
+    /* transform: translateY(-50%); */
+    /* left: 725px; */
+    background-color: rebeccapurple;
+      color:#fff;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+}
+#hu:hover {
+    background-color: rgb(103, 60, 146);
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
